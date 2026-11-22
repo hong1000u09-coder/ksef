@@ -1,0 +1,18 @@
+{
+  "split_seed": 20261122,
+  "evaluation_fraction": 0.25,
+  "evaluation_group_ids": null,
+  "model_comparison_budget": 8,
+  "model_comparison_question_ids": null,
+  "budgets": [0, 2, 4, 8],
+  "seeds": [13, 29, 47],
+  "strategy_models": ["P1"],
+  "context_numeric_features": ["brightness_mean", "saturation_mean"],
+  "include_scene_one_hot": true,
+  "saturation_bin_edges": [0.33, 0.66],
+  "prior_std": 1.0,
+  "interaction_prior_std": 0.1,
+  "map_max_iter": 100,
+  "posterior_samples": 128,
+  "bald_samples": 128
+}
